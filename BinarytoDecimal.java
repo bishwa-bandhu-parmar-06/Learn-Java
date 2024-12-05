@@ -25,5 +25,7 @@ public class BinarytoDecimal {
         int a = sc.nextInt();
         int decimal_number = bintodec(a);
         System.out.println("Decimal Number of Given Binary Number is : " + decimal_number);
+        sc.close();
+
     }
 }

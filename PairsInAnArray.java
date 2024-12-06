@@ -1,4 +1,4 @@
-import java.util.*;
+
 public class PairsInAnArray {
     public static void printPairs(int numbers[]){
         for(int i = 0; i<numbers.length; i++){

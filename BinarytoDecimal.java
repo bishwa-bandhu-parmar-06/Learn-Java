@@ -13,7 +13,7 @@ public class BinarytoDecimal {
         while ( binary_number > 0 ){
             int last_digit = binary_number % 10;
 
-            decimal = decimal + (last_digit * (int) Math.pow(2, power) );
+            decimal = decimal + (last_digit * (int) Math.pow(2, power)) ;
             power++;
             binary_number = binary_number / 10;
         }
